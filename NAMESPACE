@@ -1,0 +1,13 @@
+exportPattern("^[[:alpha:]]+")
+import(dplyr)
+import(SummarizedExperiment)
+import(edgeR)
+import(ggplot2)
+import(hash)
+import(limma)
+import(stringr)
+import(survival)
+import(survminer)
+import(TCGAbiolinks)
+importFrom("stats", "model.matrix", "quantile", "relevel",
+               "wilcox.test")
